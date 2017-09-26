@@ -1,3 +1,5 @@
+%AW: See comments on problem 2 below. 0.89/1.
+
 %Inclass assignment 5. 
 
 % 1. (a) Write a function that reads in an image and displays it so that 1%
@@ -69,6 +71,9 @@ imshow(imadjust(image, img_limits, []))
 end
 
 % Number 2
+
+%AW - you compliment the sequence but don't reverse. -0.1.
+% also, your base pairings are wrong - should be A-T, and G-C -0.01
 
 function [rev_comp] = reverse_compliment( sequence )
 
